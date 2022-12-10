@@ -65,13 +65,6 @@ body{
     color: rgb(230, 222, 222);
 }
 
-/* Add an active class to highlight the current page
-.topnav a.active {
-    background-color: rgb(241, 241, 241);
-    color: black;
-}
- */
-
 .topnav .icon {
     display: none;
 }
@@ -136,7 +129,7 @@ body{
 
 .textointro{
     text-indent: 5%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
     text-align: justify;
     font-size: 1.3rem;
     width: 90%;
@@ -167,8 +160,9 @@ body{
 
 .texto{
     padding: 10px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     text-align: justify;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
 }
 
 .texto li{
@@ -196,7 +190,7 @@ body{
 .card{
     box-shadow: 0 4px 8px 0 ;
     transition: 0.3s;
-    border-radius: 5px 40px;
+    border-radius: 30px 30px;
 }
 
 .card img{
@@ -268,14 +262,22 @@ body{
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 66.66%; 
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    
 }
 
 #separar{
     margin-left: 10%;
 }
 
+.grid5{
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+.col5 {
+    width: 100%;
+}
 
 /***************************** Footer *******************************/
 #footer{
