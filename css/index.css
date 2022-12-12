@@ -129,17 +129,17 @@ body{
 
 .textointro{
     text-indent: 5%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     font-size: 1.3rem;
     width: 90%;
 }
 .grid1{
     display: grid;
-    grid-template-columns:50% 50%;
+    grid-template-columns:70% 50%;
 }
 .col1 img{
-    width: 100%;
+    width: 70%;
 }
 
 
@@ -162,7 +162,7 @@ body{
     padding: 10px;
     font-size: 1.5rem;
     text-align: justify;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .texto li{
