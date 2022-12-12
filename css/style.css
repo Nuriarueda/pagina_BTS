@@ -273,6 +273,9 @@ body{
 
 #separar{
     margin-left: 10%;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
 }
 
 .grid5{
@@ -282,6 +285,8 @@ body{
 .col5 {
     width: 100%;
 }
+
+
 
 /***************************** Footer *******************************/
 #footer{
